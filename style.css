@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(rgb(2, 166, 2), blue , rgb(6, 195, 6)) no-repeat;
+    height: 97.4vh;
+}
+
+#inp{
+    margin-top: 200px;
+    margin-left: 500px;
+    font-size: 25px;
+    background-color: green;
+    border-radius: 10px;
+    box-shadow: 5px 15px 15px;
+}
+button{
+    font-size: 25px;
+    background-color: green;
+    border-radius: 10px;
+    box-shadow: 5px 15px 15px;
+    font-style: italic;
+    margin-left: 500px;
+}
+button:hover{
+    transform: rotate(360deg);
+    transition: .9s;
+
+}
+p{
+    margin-left: 5px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
